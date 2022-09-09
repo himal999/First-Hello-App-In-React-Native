@@ -1,10 +1,11 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
+import CarItem from './components/CarItem';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Hello React Native</Text>
+      <CarItem />
     </View>
   );
 };
@@ -16,4 +17,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
 export default App;
